@@ -5,6 +5,7 @@ import os
 import time
 
 import generators.creatures
+import generators.misc
 
 
 HOME_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -39,5 +40,21 @@ def write_creatures_json():
     all_creatures = generators.creatures.get_all_creatures()
     save_json(all_creatures, "all_creatures.json", "all_creatures")
 
+def write_misc_json():
+    misc_dict = {}
+    misc_dict['alignments'] = generators.misc.get_alignments()
+    misc_dict['attributes'] = generators.misc.get_attributes()
+    misc_dict['basic_colors'] = generators.misc.get_basic_colors()
+    misc_dict['colors'] = generators.misc.get_colors()
+    misc_dict['liquid_types'] = generators.misc.get_liquid_types()
+    misc_dict['metals'] = generators.misc.get_metals()
+    misc_dict['gems'] = generators.misc.get_gems()
+    misc_dict['personalities'] = generators.misc.get_personalities()
+    misc_dict['smells'] = generators.misc.get_smells()
+    misc_dict['stones'] = generators.misc.get_stones()
+    misc_dict['traits'] = generators.misc.get_traits()
+    save_json(misc_dict, "misc.json", "misc")
+
 if __name__ == "__main__":
     write_creatures_json()
+    write_misc_json()
