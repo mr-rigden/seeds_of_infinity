@@ -3,7 +3,7 @@
 > A set of free tools for building RPG software.
 
 These tools the have been licensed as liberally as possible with [The Unlicense](http://unlicense.org/). 
-You can use them tools in anyway without restriction. The Seeds_of_Infinity primarily consist two types of tools: Resources and Generators. 
+You can use the tools in anyway without restriction. The Seeds_of_Infinity primarily consist two types of tools: Resources and Generators. 
 
 #### Resources
 
