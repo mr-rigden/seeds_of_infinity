@@ -3,11 +3,7 @@
 > A set of free tools for building RPG software.
 
 These tools the have been licensed as liberally as possible with [The Unlicense](http://unlicense.org/). 
-You can use them tools in anyway without restriction.
-
-The Seeds_of_Infinity primarily consist two types of tools: Resources and Generators. 
-
-
+You can use them tools in anyway without restriction. The Seeds_of_Infinity primarily consist two types of tools: Resources and Generators. 
 
 #### Resources
 
@@ -31,7 +27,7 @@ You can also clone this repository locally.
 
 [Open on issue on the github repository](https://github.com/jrigden/Seeds_of_Infinity/issues)
 
-Or if you are familiar with python or using git:
+Or if you are familiar with python and git:
 
 ```
 1. Fork it!
@@ -41,7 +37,12 @@ Or if you are familiar with python or using git:
 5. Submit a pull request :D
 ```
 
-**For everyone else**
+## Credits
+
+#### Jason Rigden
+* [@mr_rigden](https://twitter.com/mr_rigden)
+* [Mr. Rigden's Blog ](https://jason.rigden.us)
+
 
 
 ## History
@@ -50,12 +51,6 @@ Or if you are familiar with python or using git:
 
 **0.1.0** Initial Release
 
-
-## Credits
-
-#### Jason Rigden
-* [@mr_rigden](https://twitter.com/mr_rigden)
-* [Mr. Rigden's Blog ](https://jason.rigden.us)
 
 ## License
 
