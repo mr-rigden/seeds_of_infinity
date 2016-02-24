@@ -16,7 +16,7 @@ Generators are python code that create the JSON files listed above.
 
 ## Usage
 
-The JSON files are available online at: [https://jason.rigden.us/depo/seeds_of_infinity/resources/json/](https://jason.rigden.us/depo/seeds_of_infinity/resources/json/)
+The JSON files are available online at: [https://labs.rigden.us/projects/seeds_of_infinity/resources/json/](https://labs.rigden.us/projects/seeds_of_infinity/resources/json/)
 
 You can also clone this repository locally.
 
