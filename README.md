@@ -1,22 +1,37 @@
 # Seeds_of_Infinity
 
-> The building blocks for your RPG tools.
+> A set of free tools for building RPG software.
 
-Seeds_of_Infinity are a set of tools 
+These tools the have been licensed as liberally as possible with [The Unlicense](http://unlicense.org/). 
+You can use them tools in anyway without restriction.
 
-## Installation
+The Seeds_of_Infinity primarily consist two types of tools: Resources and Generators. 
 
-TODO: Describe the installation process
+
+
+#### Resources
+
+Resources are JSON files that contain lists of RPG elements. Such as Natural Animals, Colors, and Alignments. 
+
+#### Generators
+
+Generators are python code that create the JSON files listed above.
+
 
 ## Usage
 
-TODO: Write usage instructions
+The JSON files are available online at: [https://rpg.rigden.us/depo/seeds_of_infinity/json](https://rpg.rigden.us/depo/seeds_of_infinity/json)
+
+You can also clone this repository locally.
+
+> git clone https://github.com/jrigden/Seeds_of_Infinity.git
+
 
 ## Contributing
 
 [Open on issue on the github repository](https://github.com/jrigden/Seeds_of_Infinity/issues)
 
-**Or if you are familiar with python or using git:**
+Or if you are familiar with python or using git:
 
 ```
 1. Fork it!
@@ -33,7 +48,7 @@ TODO: Write usage instructions
 
 *This project uses [Semantic Versioning](http://semver.org/)*
 
-**0.1.0** Intitial Release
+**0.1.0** Initial Release
 
 
 ## Credits
