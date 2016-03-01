@@ -2,12 +2,12 @@
 
 > A set of free tools for building RPG software.
 
-These tools the have been licensed as liberally as possible with [The Unlicense](http://unlicense.org/). 
-You can use the tools in anyway without restriction. The seeds_of_infinity primarily consist two types of tools: Resources and Generators. 
+These tools the have been licensed as liberally as possible with [The Unlicense](http://unlicense.org/).
+You can use the tools in anyway without restriction. The seeds_of_infinity primarily consist two types of tools: Resources and Generators.
 
 #### Resources
 
-Resources are JSON files that contain lists of RPG elements. Such as Natural Animals, Colors, and Alignments. 
+Resources are JSON files that contain lists of RPG elements. Such as Natural Animals, Colors, and Alignments.
 
 #### Generators
 
@@ -22,6 +22,10 @@ You can also clone this repository locally.
 
 > git clone https://github.com/jrigden/Seeds_of_Infinity.git
 
+
+## Derivative Projects
+
+* [The Miraculous Potion Machine](https://rpg.rigden.us/potion_machine/): [potion_machine](https://github.com/jrigden/potion_machine)
 
 ## Contributing
 
