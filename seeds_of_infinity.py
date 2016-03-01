@@ -5,6 +5,9 @@ import os
 import time
 
 import generators.creatures
+import generators.feminine_first_names
+import generators.last_names
+import generators.masculine_first_names
 import generators.misc
 
 
@@ -36,7 +39,6 @@ def save_json(data, filename, title):
     f_out.close()
     f_in.close()
 
-
 def write_all_json():
     misc_dict = {}
     misc_dict['alignments'] = generators.misc.get_alignments()
@@ -52,8 +54,6 @@ def write_all_json():
     misc_dict['stones'] = generators.misc.get_stones()
     misc_dict['traits'] = generators.misc.get_traits()
     save_json(misc_dict, "all.json", "all data")
-
-
 
 def write_creatures_json():
     all_creatures = generators.creatures.get_all_creatures()
@@ -74,7 +74,17 @@ def write_misc_json():
     misc_dict['traits'] = generators.misc.get_traits()
     save_json(misc_dict, "misc.json", "misc")
 
+def write_names_json():
+    names = {}
+    names['first_names'] = {}
+    names['first_names']['feminine'] = generators.feminine_first_names.NAMES
+    names['first_names']['masculine'] = generators.masculine_first_names.NAMES
+    names['last_names'] = generators.last_names.NAMES
+    save_json(names, "names.json", "Names")
+
+
 if __name__ == "__main__":
     write_all_json()
     write_creatures_json()
     write_misc_json()
+    write_names_json()
