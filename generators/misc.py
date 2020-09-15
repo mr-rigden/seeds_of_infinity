@@ -161,7 +161,7 @@ def get_colors():
         'purple',
         'red',
         'rosy brown',
-        'royal blue'
+        'royal blue',
         'saddle brown',
         'salmon',
         'sandy brown',
@@ -296,7 +296,7 @@ def get_personalities():
         'agreeable',
         'agreeable',
         'angry',
-        'anxious'
+        'anxious',
         'arrogant',
         'articulate',
         'aspiring',
@@ -304,7 +304,7 @@ def get_personalities():
         'benevolent',
         'calm',
         'caring',
-        'careless'
+        'careless',
         'cheerful',
         'childish',
         'confident',
@@ -317,7 +317,7 @@ def get_personalities():
         'grouchy',
         'guilty',
         'hateful',
-        'jealous'
+        'jealous',
         'melodramatic',
         'empathetic',
         'evil',
@@ -329,7 +329,7 @@ def get_personalities():
         'idealistic',
         'impatient',
         'lazy',
-        'mysterious'
+        'mysterious',
         'nervous',
         'optimistic',
         'philosophical',
